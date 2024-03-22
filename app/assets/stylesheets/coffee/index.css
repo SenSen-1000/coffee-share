@@ -1,0 +1,48 @@
+/* メイン */
+.index-main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('hero.png');
+  background-size: cover;
+  opacity: 70%;
+} 
+.coffee-contents{
+  width: 50vw;
+  height: 100vh;
+  display:flex;
+  justify-content: left;
+}
+.title{
+  padding-bottom:5vh;
+  color: silver;
+}
+.coffee-lists {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.coffee-lists>.list {
+  width: 37vh;
+  padding: 1vw;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.coffee-img {
+  width: 33vh;
+  height: 10vh;
+}
+.coffee-info {
+  background-color: black;
+  color: silver;
+}
+.coffee-name {
+  font-size: 1.5vh;
+  justify-content: center;
+}
+.see-more{
+  color:white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
