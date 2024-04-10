@@ -73,3 +73,4 @@ end
 
 gem 'pry-rails'
 gem 'devise'
+gem "aws-sdk-s3", require: false
